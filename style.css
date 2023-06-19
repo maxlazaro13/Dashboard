@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    width: 100vw; 
+    height: 100vh;  
+    gap: 5px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.cabecalho {
+    border: 2px solid black;
+}
+
+.botao {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: end;
+    }
+
+.borda {
+    /* border: 1px solid black;   */
+    border-radius: 20px;
+    background-color: #01B574;
+    width: 55px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 20px;
+}
+
+.borda > img {
+    /* border: 1px solid black; */
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+ }
+
+.image {
+    /* border: 2px solid rgb(207, 18, 144); */
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+
+.image > img {
+    /* border: 1px solid green; */
+    height: 30px;
+}
+
+.image > p {
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.corpo {
+    /* border: 3px solid rgb(225, 0, 255); */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.linha {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.caixa {
+    /* border: 1px solid red; */
+    background-color: gray;
+    border-radius: 0px 20px 20px 20px ;
+}
+
+.caixa1 {
+    flex: 1;
+}
+
+.caixa2 {
+    flex: 2;
+}
+
+.caixa3 {
+    flex: 3;
+}
